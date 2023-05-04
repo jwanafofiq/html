@@ -1,0 +1,52 @@
+.first{
+  background-color: antiquewhite;
+  padding: 30px;
+}
+p{
+  position: relative;
+  font-size: xx-large;
+  text-align: justify;
+}
+img{
+  float: right;
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+em	{
+  position: absolute;
+  top:	2em;	  /*moves it down */  
+  left: 8em; /*moves it right */  
+  background-color:	fuchsia;
+  }
+  
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-content: space-between;
+    flex: 1 0 100px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+.box10{
+  flex: 3 0 100px;
+}
+.box15{
+  order: 1;
+}
+
+.box20{
+  order: 1;
+}
+
+
+  
